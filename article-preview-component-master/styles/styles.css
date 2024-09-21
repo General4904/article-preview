@@ -1,0 +1,100 @@
+/* Styles */
+body {
+  font-family: "Manrope", sans-serif;
+  color: hsl(217, 19%, 35%);
+  padding: 5rem 6rem;
+  font-size: 16px;
+  background-color: hsl(210, 46%, 95%);
+}
+
+#content {
+  margin: 0 0 1em 0;
+  background-color: white;
+  height: 20rem;
+  padding: 0;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 5px 8px 15px 1px hsl(212, 23%, 69%);
+}
+
+#content #banner p#picture {
+  margin: 0;
+}
+
+#content #banner p#picture img#drawers {
+  margin: 0;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 8px 0 0 8px;
+}
+
+#content #words {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#content #words p#text1 {
+  margin: 0 0 2rem 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#content #words p#text2 {
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+  font-size: 13px;
+  margin: 0 0 2rem 0;
+}
+
+#content #words #profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+#content #words #profile #pic {
+  display: flex;
+  align-items: center;
+}
+
+#content #words #profile #pic #avatar {
+  margin: 0 1em 0 0;
+}
+
+#content #words #profile #avatar img#michelle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+#content #words #profile #pic #misc #name {
+  font-weight: 700;
+}
+
+#content #words #profile #pic #misc #date {
+  color: hsl(212, 23%, 69%);
+  font-weight: 500;
+}
+
+#content #words #profile #share {
+  text-align: center;
+  padding: 0.7rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: hsl(210, 46%, 95%);
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

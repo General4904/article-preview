@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <div id="content">
+      <div id="banner">
+        <p id="picture">
+          <img src="images/drawers.jpg" id="drawers" alt="" />
+        </p>
+      </div>
+      <div id="words">
+        <p id="text1">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </p>
+        <p id="text2">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+        <div id="profile">
+          <div id="pic">
+            <div id="avatar">
+              <img src="images/avatar-michelle.jpg" alt="" id="michelle" />
+            </div>
+            <div id="misc">
+              <p id="name">Michelle Appleton</p>
+              <p id="date">28 Jun 2020</p>
+            </div>
+          </div>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-container="body"
+            data-bs-toggle="popover"
+            data-bs-placement="top"
+            data-bs-content="<img src='images/icon-share.svg' alt='' />"
+          >
+            <img src="images/icon-share.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Share -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
