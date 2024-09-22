@@ -88,8 +88,6 @@ body {
   background-color: hsl(210, 46%, 95%);
 }
 
-
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -97,4 +95,9 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.popover {
+  /* style the popover here you can  inspect it to get the selector to use */
+  background-color: red;
 }

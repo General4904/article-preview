@@ -62,8 +62,6 @@
             class="btn btn-secondary"
             data-bs-container="body"
             data-bs-toggle="popover"
-            data-bs-placement="top"
-            data-bs-content="<img src='images/icon-share.svg' alt='' />"
           >
             <img src="images/icon-share.svg" alt="" />
           </button>
@@ -79,4 +77,15 @@
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var btn = document.querySelector(".btn");
+      var popover = new bootstrap.Popover(btn, {
+        title: "<img src='images/icon-share.svg' alt='' />", // You can put your html content in either this title or in the content
+        content: "Blabla <br> <h2>Cool stuff!</h2>",
+        html: true,
+        placement: "top",
+      });
+    });
+  </script>
 </html>
